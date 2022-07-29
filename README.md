@@ -13,7 +13,7 @@
 
 
 
-<!-- ## Project 2 [Live Link](https://live-proj-2.netlify.app) -->
+## Project 2 [Live Link](https://zeeshan-html-css-project-2.netlify.app)
 
 -   Skills Gained in this project
     -   Learnd to use css position property.
