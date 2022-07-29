@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+
+
+}
+
+body{
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 90%;
+  background-image: linear-gradient(rgba(15, 15, 51,0.8),rgba(15, 15, 51, 0.8)), url("./assets/bg.png");
+  margin: 3% 3%;
+}
+
+/*------------------------------- Another Way of Doing colour overlay on backgrounf image--------------- */
+
+
+/* .container{
+  background-image: url("./assets/bg.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+} */
+
+/* .img-overlay{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(40, 40, 108,0.5);
+
+} */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 15vh;
+}
+
+.logo{
+  height: 40%;
+}
+
+.list{
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 10%; */
+  
+  
+}
+
+li{
+  font-weight: 600;
+  list-style-type: none;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 22px;
+  cursor: pointer;
+  color: #E8BD0D;
+}
+
+.button-small{
+  padding: 9px 50px;
+  /* margin-left: 60%; */
+  background-color: #FF6666;
+  border: 1px solid #FF6666;
+  font-size: 20px;
+  color: #fff;
+}
+
+
+
+/* ------------------------------ */
+
+
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+
+.hero{
+  text-align: center;
+
+}
+
+.hero-heading{
+  font-size: 100px;
+  line-height: 100px;
+  color: #E8BD0D;
+}
+
+
+.button-large{
+padding: 9px 50px;
+/* margin-left: 60%; */
+background-color: #FF6666;
+border: 1px solid #FF6666;
+font-size: 28px;
+color: #fff;
+margin-top: 60px;
+}
+
+
+
+
+.bottom-logo{
+  float: right;
+  height: 150px;
+}
+/* ------------------------------ */
